@@ -3,13 +3,24 @@
 <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
 <head>
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../assets/css/pico.min.css">
 </head>
 
 <body>
-
-
-  {{ content }}
-
-
-</body>
+    <header>
+        <nav>
+            <ul>
+              <li><strong>Brand</strong></li>
+            </ul>
+            <ul>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#" role="button">Button</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main class="container">
+        {{ content }}
+    </main>
+  </body>
 </html>
